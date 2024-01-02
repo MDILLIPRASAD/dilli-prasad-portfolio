@@ -1,0 +1,26 @@
+/* Navbar.css */
+.custom-navbar {
+    padding: 20px 40px 20px 40px !important; /* Adjust the padding as needed (top, right, bottom, left) */
+    margin-bottom: 3px; /* Add margin at the bottom */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em; /* Increase the font size of the brand */
+    font-weight: bold;
+    margin-right: 20px; /* Add space to the right of the brand */
+  }
+  
+  .nav-link {
+    font-size: 1.1em; /* Adjust the font size of the navigation links */
+    margin-right: 25px; /* Add more spacing between the links */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #d3d3d3; /* Change the color of the navbar toggle icon */
+  }
+  
+  /* Change the color of the active link */
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    color: #ffc107;
+  }
